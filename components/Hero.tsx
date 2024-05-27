@@ -6,8 +6,8 @@ import photoGrid from "@/public/photo-grid.png"
 
 export default function Hero() {
     return (
-        <section className="p-20 flex flex-col">
-            <Image src={photoGrid} className="self-center max-w-[50rem]" alt="photo grid" />
+        <section className="p-10 flex flex-col">
+            <Image src={photoGrid} className="self-center md:max-w-[50rem]" alt="photo grid" />
             <h1 className="my-4
              font-semibold text-4xl">
                 Online Experiences
