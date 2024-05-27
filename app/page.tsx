@@ -5,12 +5,13 @@ import Link from "next/link";
 
 // importing components
 import Navbar from "@/components/Navbar";
-import Card from "@/components/Card";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
+      <Hero />
     </main>
   );
 }
